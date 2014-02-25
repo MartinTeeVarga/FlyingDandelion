@@ -81,7 +81,7 @@ public class ResourceManager {
 	public void loadGameResources() {
 		BitmapTextureAtlasTextureRegionFactory.setAssetBasePath("gfx/");	
 		
-		repeatingGroundAtlas = new BitmapTextureAtlas(activity.getTextureManager(), 384, 256, TextureOptions.REPEATING_BILINEAR_PREMULTIPLYALPHA);
+		repeatingGroundAtlas = new BitmapTextureAtlas(activity.getTextureManager(), 256, 256, TextureOptions.REPEATING_BILINEAR_PREMULTIPLYALPHA);
 		repeatingGroundRegion = BitmapTextureAtlasTextureRegionFactory.createFromAsset(repeatingGroundAtlas, activity, "ground.png", 0, 0);
 		repeatingGroundAtlas.load();
 		
