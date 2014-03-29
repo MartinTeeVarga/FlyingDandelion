@@ -4,9 +4,13 @@ by [Kulíš Android](http://android.kul.is)
 
 [Google Play Store link](https://play.google.com/store/apps/details?id=is.kul.flappydandelion) 
 
-## License
+## Source code license
 
 MIT
+
+## Assets license
+
+(c) 2013-2014 Martin Varga, can't be used without permission. 
 
 ## Important
 
